@@ -1,0 +1,19 @@
+{
+  "name": "discord-moderation-bot",
+  "version": "1.0.0",
+  "description": "A Discord.js v14 moderation bot with ban, mute, warn, channel lock, and chat clear commands, backed by quick.db (JSON file storage).",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "quick.db": "^9.1.7",
+    "write-file-atomic": "^5.0.1"
+  },
+  "license": "MIT"
+}
